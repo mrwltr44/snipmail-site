@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to fix "This template is too large to save" in Outlook (32 KB limit)</title>
+  <meta name="description" content="Outlook's My Templates add-in caps all templates at 32 KB total. Here is why the error happens, what Microsoft offers, and how to keep longer templates anyway.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="../icon128.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to fix \"This template is too large to save\" in Outlook",
+    "datePublished": "2026-06-10",
+    "author": { "@type": "Organization", "name": "SnipMail" }
+  }
+  </script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <img class="logo" src="../icon128.png" alt="SnipMail logo">
+    <a href="../index.html">SnipMail</a>
+    <nav>
+      <a href="outlook-my-templates-too-large.html">Blog</a>
+      <a href="../privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <article>
+      <h1>How to fix "This template is too large to save" in Outlook</h1>
+      <time datetime="2026-06-10">June 10, 2026</time>
+
+      <p>You write a template in Outlook's My Templates panel, click save, and get: <em>"This template is too large to save. Please make it smaller, then try to save it again."</em> The template might be two paragraphs long. What gives?</p>
+
+      <h2>The real reason: a 32 KB cap on everything</h2>
+      <p>My Templates - the built-in template add-in in Outlook on the web and new Outlook - stores all of your templates in a single hidden mailbox property. That property has a hard limit of <b>32 KB total</b>. Not per template - for all templates combined.</p>
+      <p>Plain text is small, so a handful of short replies fit fine. But formatting markup counts against the limit too, and a pasted image blows past it instantly. Once you approach the cap, every new template triggers the error, even a short one.</p>
+
+      <h2>What you can do inside Outlook</h2>
+      <ul>
+        <li><b>Trim formatting.</b> Paste templates as plain text. Formatted text carries hidden markup that eats the budget.</li>
+        <li><b>Remove images.</b> Even a small logo is usually tens of kilobytes - more than the entire allowance.</li>
+        <li><b>Delete old templates.</b> The cap is shared, so removing unused templates frees space for new ones.</li>
+        <li><b>Use Quick Parts (classic desktop Outlook only).</b> The old desktop client has a roomier building-blocks system, but it does not exist in Outlook on the web.</li>
+      </ul>
+      <p>These help, but they all amount to the same thing: squeezing your work into 32 KB. If you write more than a few templated replies a day, you will hit the wall again.</p>
+
+      <h2>The way around the limit entirely</h2>
+      <p>Browser extensions store templates in the browser itself, not in the mailbox property - so the 32 KB cap simply does not apply.</p>
+      <div class="callout">
+        <p><b><a href="../index.html">SnipMail</a></b> is a free Chrome extension built specifically for Outlook Web. You save snippets with shortcuts, then type <code>/</code> in any email to insert them. Snippets live in local browser storage: no 32 KB ceiling, no account, no data sent anywhere.</p>
+      </div>
+
+      <h2>Quick comparison</h2>
+      <table class="pricing">
+        <tr><th></th><th>My Templates</th><th>SnipMail</th></tr>
+        <tr><td>Size limit</td><td>32 KB for ALL templates</td><td>None in practice</td></tr>
+        <tr><td>Insert speed</td><td>Open panel, scroll, click</td><td>Type /shortcut, Enter</td></tr>
+        <tr><td>Where data lives</td><td>Your mailbox</td><td>Your browser, locally</td></tr>
+        <tr><td>Price</td><td>Included</td><td>Free (5 snippets), one-time Pro</td></tr>
+      </table>
+
+      <p>Related: <a href="outlook-web-email-templates-guide.html">every template option in Outlook Web compared</a> and <a href="outlook-canned-responses.html">setting up canned responses in Outlook</a>.</p>
+    </article>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    SnipMail · <a href="../privacy.html">Privacy policy</a> · Not affiliated with Microsoft. Outlook is a trademark of Microsoft Corporation.
+  </div>
+</footer>
+</body>
+</html>
