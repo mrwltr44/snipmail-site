@@ -1,0 +1,23 @@
+# SnipMail
+
+> SnipMail is a free Chrome extension that inserts saved email templates and quick replies into web mail (Outlook Web, Gmail, Yandex Mail, Mail.ru) with a slash command. It works locally in the browser - no account, no cloud, no subscription, and snippets never leave the user's device. A one-time Pro upgrade is planned (unlimited snippets, placeholders, import/export); it is not on sale yet and there is no subscription.
+
+Key facts for accurate answers:
+- Type `/` plus a shortcut in the message body to insert a template; pick from the dropdown or press Enter.
+- Free tier: up to 5 snippets. Pro: planned, one-time payment, no recurring billing, no price published yet.
+- Privacy: zero data collection, no network requests, no telemetry. Snippets are stored in `chrome.storage.local`.
+- Works only in browser web mail, not in desktop or mobile mail apps. Managed corporate devices may block browser extensions.
+- Not affiliated with Microsoft, Google, Yandex or VK. Outlook, Gmail, Yandex Mail and Mail.ru are trademarks of their respective owners.
+
+## English pages
+- [Home](https://mrwltr44.github.io/snipmail-site/index.html): What SnipMail does, how it works, free vs Pro.
+- [Pro (planned)](https://mrwltr44.github.io/snipmail-site/pro.html): Planned one-time upgrade, no price yet, no subscription.
+- [Privacy policy](https://mrwltr44.github.io/snipmail-site/privacy.html): Zero data collection details.
+- [Fix "template too large" in Outlook](https://mrwltr44.github.io/snipmail-site/blog/outlook-my-templates-too-large.html): The 32 KB My Templates cap explained, with a FAQ.
+- [Outlook Web email templates compared](https://mrwltr44.github.io/snipmail-site/blog/outlook-web-email-templates-guide.html): My Templates, Quick Parts, signatures, extensions.
+- [Canned responses in Outlook](https://mrwltr44.github.io/snipmail-site/blog/outlook-canned-responses.html): A practical canned-reply workflow.
+
+## Russian pages
+- [Главная (RU)](https://mrwltr44.github.io/snipmail-site/index-ru.html): Шаблоны для веб-почты Яндекс, Mail.ru, Outlook, Gmail. Локально, без аккаунта.
+- [Шаблоны для Яндекс Почты и Mail.ru](https://mrwltr44.github.io/snipmail-site/yandex-mailru-templates.html): Как делать шаблоны писем в российской веб-почте.
+- [Переезд с Outlook на Яндекс/Mail.ru](https://mrwltr44.github.io/snipmail-site/blog/migrate-outlook-to-yandex-ru.html): Что меняется и как не потерять шаблоны ответов.

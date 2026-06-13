@@ -13,7 +13,33 @@
     "@type": "Article",
     "headline": "How to fix \"This template is too large to save\" in Outlook",
     "datePublished": "2026-06-10",
-    "author": { "@type": "Organization", "name": "SnipMail" }
+    "dateModified": "2026-06-13",
+    "author": { "@type": "Organization", "name": "SnipMail" },
+    "publisher": { "@type": "Organization", "name": "SnipMail" },
+    "mainEntityOfPage": "https://mrwltr44.github.io/snipmail-site/blog/outlook-my-templates-too-large.html"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why does Outlook say my template is too large to save?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Outlook's My Templates add-in stores every template together in a single hidden mailbox property capped at 32 KB total. The error appears once the combined size of all your templates - including formatting markup and any images - reaches that cap, even if the template you are saving is short." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the size limit for Outlook My Templates?",
+        "acceptedAnswer": { "@type": "Answer", "text": "32 KB for all templates combined, not per template. Formatting and pasted images count against the same shared budget." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I keep templates larger than the 32 KB limit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Store them outside the mailbox property. A browser extension such as SnipMail keeps snippets in local browser storage, so the 32 KB mailbox cap does not apply. You can also trim formatting, remove images, and delete unused templates to free space within My Templates." }
+      }
+    ]
   }
   </script>
 </head>
@@ -34,6 +60,8 @@
     <article>
       <h1>How to fix "This template is too large to save" in Outlook</h1>
       <time datetime="2026-06-10">June 10, 2026</time>
+
+      <p class="lead"><b>Short answer:</b> Outlook's My Templates add-in stores all your templates together in one mailbox property capped at 32 KB total - not per template. The error appears once everything combined (text, formatting, images) reaches that cap. To get past it, trim formatting and images, or store templates outside the mailbox with a browser extension where the 32 KB limit doesn't apply.</p>
 
       <p>You write a template in Outlook's My Templates panel, click save, and get: <em>"This template is too large to save. Please make it smaller, then try to save it again."</em> The template might be two paragraphs long. What gives?</p>
 
@@ -62,8 +90,13 @@
         <tr><td>Size limit</td><td>32 KB for ALL templates</td><td>None in practice</td></tr>
         <tr><td>Insert speed</td><td>Open panel, scroll, click</td><td>Type /shortcut, Enter</td></tr>
         <tr><td>Where data lives</td><td>Your mailbox</td><td>Your browser, locally</td></tr>
-        <tr><td>Price</td><td>Included</td><td>Free (5 snippets), one-time Pro</td></tr>
+        <tr><td>Price</td><td>Included</td><td>Free (5 snippets), one-time Pro planned</td></tr>
       </table>
+
+      <h2>FAQ</h2>
+      <p><b>Why does Outlook say my template is too large to save?</b><br>All your My Templates live in one hidden mailbox property capped at 32 KB total. The error fires once the combined size of every template - including formatting markup and any images - reaches that cap, even if the one you're saving is short.</p>
+      <p><b>What is the size limit for Outlook My Templates?</b><br>32 KB for all templates combined, not per template. Formatting and pasted images count against the same shared budget.</p>
+      <p><b>How do I keep templates larger than the 32 KB limit?</b><br>Store them outside the mailbox property. A browser extension like <a href="../index.html">SnipMail</a> keeps snippets in local browser storage, so the mailbox cap doesn't apply. Within My Templates itself you can only trim formatting, remove images and delete unused templates to free space.</p>
 
       <p>Related: <a href="outlook-web-email-templates-guide.html">every template option in Outlook Web compared</a> and <a href="outlook-canned-responses.html">setting up canned responses in Outlook</a>.</p>
     </article>
